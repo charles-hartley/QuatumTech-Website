@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quntam Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/12103fed53.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#why us">Why Us</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Quntam Web Developers</p>
+                <h1>Hello, We are <br><span>Quantam Tech</span><br>We work Globally.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/codes.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Welcome to Quantam Tech, where innovation meets craftsmanship in the digital realm. We are more than just web developers – we are your partners in creating stunning, functional, and dynamic online experiences. Our mission is to transform your vision into a digital masterpiece, ensuring your online presence is as unique and impressive as your business.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('clients')">Clients</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX Design</span><br>Crafting intuitive and visually appealing interfaces that offer a seamless user experience.</li>
+                            <li><span>Web Development</span><br>Building robust and scalable web applications tailored to your business needs.</li>
+                            <li><span>App Development</span><br>Creating high-performance Android and iOS apps with a focus on user engagement and functionality.</li>
+                            <li><span>Responsive Design</span><br>Ensuring your website looks and performs perfectly on all devices.</li>
+                            <li><span>E-commerce Solutions</span><br>Developing secure and user-friendly online stores to drive sales and customer satisfaction.</li>
+                            <li><span>SEO & Digital Marketing</span><br>Optimizing your online presence to increase visibility and drive traffic.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Senior Web Developer at Tech Innovators</span><br>Led a team of developers in creating award-winning websites and applications for Fortune 500 companies. (2018-2021)</li>
+                            <li><span>UI/UX Designer at Creative Minds</span><br>Designed intuitive and visually stunning interfaces for various mobile and web applications, enhancing user satisfaction and engagement. (2015-2018)</li>
+                            <li><span>Freelance App Developer</span><br>Worked on numerous freelance projects, developing custom apps that helped small businesses and startups reach their goals. (2012-2015)</li>
+                            <li><span>Intern at Future Web Solutions</span><br>Gained hands-on experience in full-stack development and contributed to several key projects. (2011-2012)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="clients">
+                        <ul>
+                            <li><span>Global Tech Corp</span><br>Developed a custom CRM system that streamlined their operations and improved customer relations.</li>
+                            <li><span>Startup Hub</span><br>Created a dynamic e-commerce platform that boosted their online sales by 300% within the first year.</li>
+                            <li><span>EduFuture</span><br>Designed and developed an interactive e-learning platform that enhanced user engagement and learning outcomes.</li>
+                            <li><span>HealthFirst</span><br>Built a responsive website and a mobile app that improved patient interaction and service delivery.</li>
+                            <li><span>Art & Craft Gallery</span><br>Designed a visually stunning online portfolio that showcased their art pieces and attracted international buyers.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Our web design services are not just about creating beautiful websites; they are about crafting immersive digital experiences that captivate your audience and drive your business forward. We blend creativity with functionality, ensuring your site is not only visually stunning but also intuitive and user-friendly. From sleek, modern interfaces to dynamic, interactive elements, we tailor every detail to reflect your brand's unique identity. Let us transform your vision into a digital masterpiece that stands out in the crowded online world.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>We understand that exceptional UI/UX design is at the heart of user satisfaction. Our approach is user-centric, focusing on creating interfaces that are not only visually appealing but also intuitive and enjoyable to navigate. We dive deep into user behavior and preferences to design experiences that feel natural and engaging. From wireframes to final design, every step is meticulously crafted to ensure seamless interaction and a memorable user journey.</p>
+                    <a href="#">Learn more</a>
+                </div>                
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Our app design services are all about creating mobile experiences that resonate with your audience. We specialize in transforming complex ideas into sleek, user-friendly applications that are both functional and delightful to use. Our team blends innovative design principles with cutting-edge technology to build apps that not only meet your needs but exceed your expectations. Whether it's a productivity tool, a social platform, or a game, we ensure your app stands out in the competitive app market.</p>
+                    <a href="#">Learn more</a>
+                </div>                
+            </div>
+        </div>
+     </div>
+     <!-- Clients -->
+      <div id="why us">
+        <div class="container">
+            <h1 class="sub-title">Why Us</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/home.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the Talented people around the Globe. Download it from play store</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the Talented people around the Globe. Download it from play store</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/mind.webp ">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the Talented people around the Globe. Download it from play store</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+
+      <!-- Contacts -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-duotone fa-solid fa-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Quantam Tech. Made with <i class="fa-regular fa-copyright"></i> by True Developers</p>
+        </div>
+       </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
